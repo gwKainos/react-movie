@@ -151,3 +151,8 @@ React 이론 완료
 ## 7-2. Coin Tracker
 
 ## 7-3. Movie App part One
+
+## 7-4. Movie App part Two
+```bash
+$ npm install react-router-dom
+```
