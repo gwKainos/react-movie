@@ -76,3 +76,12 @@ flip 기능 만들기
 
 ## 3-9. Final Practice and Recap
 select 메뉴 추가
+
+const [item, modifier] = React.useState(0);
+useState array를 제공
+첫번째 item : 데이터
+두번째 item : modifier 함수 (실행시, 모든 컴포넌트들이 다시 랜더링)
+
+## 4-0. Props
+props : 첫번째 인자만 존재하며, Object 형태로 받음.
+
