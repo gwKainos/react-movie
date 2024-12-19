@@ -29,3 +29,6 @@ React.createElement("span", {id: "sexy-span"}, "Hello i'm a span");
 첫번째, HTML 태그
 두번째, props (property)
 세번째, 내용
+
+## 2-5. JSX
+JSX : Babel을 통해 코드 변환
