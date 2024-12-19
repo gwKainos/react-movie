@@ -177,3 +177,16 @@ Switch -> Routes
 ```
 
 ## 7-6. Parameters
+```bash
+$ npm install gh-pages
+```
+
+홈페이지 생성
+```bash
+$ npm run build
+$ git remote -v
+```
+
+## 7-7. Publishing
+
+## 7-8. Conclusions
