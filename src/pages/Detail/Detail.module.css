@@ -1,11 +1,15 @@
-/* pages/Detail/Detail.module.css */
 .container {
-  padding: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  background-color: #eff3f7;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.3), /* 투명 레이어 */
+      rgba(0, 0, 0, 0.3)
+  ),
+  url('/public/images/background.webp'); /* 상세페이지용 배경 이미지 경로 */
+  background-position: center; /* 중앙 배치 */
+  background-repeat: no-repeat; /* 반복 금지 */
+  background-size: cover; /* 이미지 크기 조정 */
+  color: white; /* 텍스트 색상 */
+  min-height: 100vh; /* 화면 높이를 꽉 채움 */
+  padding: 20px; /* 콘텐츠 여백 */
 }
 
 .loader {
