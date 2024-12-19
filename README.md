@@ -175,3 +175,5 @@ Switch -> Routes
 
 <Route path="/" element={<Home />} />
 ```
+
+## 7-6. Parameters
