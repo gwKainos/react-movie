@@ -71,3 +71,5 @@ onChange 역확 : 값 변경, UI에 보여주는 것
 
 ## 3-7. State Practice part Two
 flip 기능 만들기
+
+## 3-8. Recap
