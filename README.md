@@ -89,3 +89,33 @@ props : 첫번째 인자만 존재하며, Object 형태로 받음.
 변경된 값만 다시 랜더링
 
 ## 4-2. Prop Types
+
+## 5-0. Introduction
+### React 프로젝트 생성
+```
+$ npx create-react-app react-movie
+```
+
+### 이슈 : Module not found: Error: Can't resolve 'web-vitals'
+```
+$ npm install web-vitals
+$ npm install web-vitals
+$ npm start
+```
+
+### index.js 버전별 차이 발생.
+```js
+ReactDOM.render(
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>,
+    document.getElementById('root')
+)
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>
+);
+```
