@@ -1,31 +1,25 @@
-import {useEffect, useState} from "react";
-import Movie from "../components/Movie";
-import styles from "../modules/Home.module.css";
+import Movie from "../../entities/Movie/Movie";
+import styles from "./Home.module.css";
+import Loader from "../../shared/ui/Loader/Loader";
+import useMovies from "../../shared/hooks/useMovies";
 
 function Home() {
-  const [loading, setLoading] = useState(true)
-  const [movies, setMovies] = useState([])
-  const getMovies = async () => {
-    const json = await (
-        await fetch(
-            `https://yts.mx/api/v2/list_movies.json?minimum_rating=9.5&sort_by=year`
-        )
-    ).json();
+  const { movies, loading, error } = useMovies(
+      "https://yts.mx/api/v2/list_movies.json?minimum_rating=9.5&sort_by=year"
+  );
 
-    setMovies(json.data.movies);
-    setLoading(false)
+  if (loading) {
+    return <div className={styles.loader}>Loading...</div>;
   }
 
-  useEffect(() => {
-    getMovies();
-  }, []);
+  if (error) {
+    return <div className={styles.error}>Error: {error}</div>;
+  }
 
   return (
       <div className={styles.container}>
         {loading ? (
-            <div className={styles.loader}>
-              <span>Loading...</span>
-            </div>
+            <Loader />
         ) : (
             <div>
               <div className={styles.movies}>
