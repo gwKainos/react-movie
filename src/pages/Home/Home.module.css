@@ -5,15 +5,24 @@
 }
 .movies {
   display: grid;
-  grid-template-columns: repeat(2, minmax(400px, 1fr));
-  grid-gap: 100px;
+  grid-template-columns: repeat(4, minmax(400px, 1fr)); /* 한 줄에 4개, 최소 너비 300px */
+  grid-gap: 50px; /* 카드 간격 */
+  justify-content: center; /* 중앙 정렬 */
   padding: 50px;
-  width: 80%;
-  padding-top: 70px;
+  width: auto; /* 너비를 콘텐츠 크기로 조정 */
+  margin: 0 auto; /* 수평 중앙 정렬 */
 }
-@media screen and (max-width: 1090px) {
+
+@media screen and (max-width: 1600px) {
   .movies {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(3, minmax(400px, 1fr));
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .movies {
+    grid-template-columns: repeat(2, minmax(400px, 1fr));
     width: 100%;
   }
 }
