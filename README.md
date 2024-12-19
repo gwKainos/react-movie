@@ -136,3 +136,5 @@ $ npm start
 =>
 
 <App />
+
+## 6-2. Deps
