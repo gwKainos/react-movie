@@ -32,3 +32,7 @@ React.createElement("span", {id: "sexy-span"}, "Hello i'm a span");
 
 ## 2-5. JSX
 JSX : Babel을 통해 코드 변환
+
+## 2-6. JSX part Two
+* 직접 만든 요소는 전부 대문자로 시작(소문자로 할 경우 HTML의 요소 인식)
+* Arrow function : = () => 을 사용할 것.
