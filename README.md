@@ -147,3 +147,5 @@ React 이론 완료
 ## 7-0. To Do List Part One
 
 ## 7-1. To Do List Part Two
+
+## 7-2. Coin Tracker
