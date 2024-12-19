@@ -138,3 +138,8 @@ $ npm start
 <App />
 
 ## 6-2. Deps
+
+## 6-3. Recap
+
+## 6-4. Cleanup
+React 이론 완료
