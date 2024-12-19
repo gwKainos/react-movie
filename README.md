@@ -124,3 +124,15 @@ root.render(
 $ npm install prop-types
 $ npm start
 ```
+
+## 6-0. Introduction
+
+## 6-1. userEffect
+로그가 두번씩 호출 될 경우 아래 내용을 수정.
+<React.StrictMode>
+<App />
+</React.StrictMode>
+
+=>
+
+<App />
