@@ -46,3 +46,15 @@ function render() {
 ```
 
 ## 3-1. setState part One
+const [counter, modifier] = React.useState(0);
+두개의 값을 받을 수 있음.
+counter : 값
+modifier : 함수
+
+## 3-2. setState part Two
+const [counter, setCounter] = React.useState(0);
+const onClick = () => {
+setCounter(counter + 1);
+}
+
+useState 함수에 + 1 값을 전달하여 카운팅 처리.
