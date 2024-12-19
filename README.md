@@ -20,3 +20,5 @@ React.createElement("span", {id: "sexy-span"}, "Hello i'm a span");
 첫번째, HTML 태그
 두번째, property
 세번째, 내용
+
+## 2-3. Event in React
