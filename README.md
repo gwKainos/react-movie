@@ -58,3 +58,8 @@ setCounter(counter + 1);
 }
 
 useState 함수에 + 1 값을 전달하여 카운팅 처리.
+
+## 3-3. Recap
+
+## 3-4. State Functions
+setCounter(counter + 1) 대신 SetCounter((current) => current +  1)을 사용하여 현재값을 보장할 것.
