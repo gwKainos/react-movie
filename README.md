@@ -85,3 +85,5 @@ useState array를 제공
 ## 4-0. Props
 props : 첫번째 인자만 존재하며, Object 형태로 받음.
 
+## 4-1. Memo
+변경된 값만 다시 랜더링
