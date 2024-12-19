@@ -99,7 +99,6 @@ $ npx create-react-app react-movie
 ### 이슈 : Module not found: Error: Can't resolve 'web-vitals'
 ```
 $ npm install web-vitals
-$ npm install web-vitals
 $ npm start
 ```
 
@@ -118,4 +117,10 @@ root.render(
       <App />
     </React.StrictMode>
 );
+```
+
+## 5-1. Tour of CRA
+```
+$ npm install prop-types
+$ npm start
 ```
