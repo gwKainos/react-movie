@@ -65,3 +65,6 @@ useState 함수에 + 1 값을 전달하여 카운팅 처리.
 setCounter(counter + 1) 대신 SetCounter((current) => current +  1)을 사용하여 현재값을 보장할 것.
 
 ## 3-5. Inputs and State
+
+## 3-6. State Practice part One
+onChange 역확 : 값 변경, UI에 보여주는 것
